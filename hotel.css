@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+@media (min-width: 768px){
+h1{
+    font-family: 'Roboto', sans-serif;
+font-weight: 900;
+line-height: 1.1;
+font-size: 4rem;
+}
+}
+@media (min-width: 768px){
+span{ 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}}
+.dropdown:hover>.dropdown-menu{
+    display: block;
+    background: #111111;
+}
+.ourroooms{
+    background: #f3f2ee;
+}
+.parallax{
+    background-image: url('https://preview.colorlib.com/theme/suites/images/xhero_1.jpg.pagespeed.ic.WnC_CEjW9b.webp');
+   min-height: 250px;
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.comments{
+    background: #f3f2ee;
+}
+.end{
+    background: #111111;
+}
+.fad:hover{
+    transition: all 0.5s;
+   opacity: 0.5;
+}
+.fw{
+    overflow:hidden;
+}
+.card2{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+.imgageinaboutus{
+    overflow: hidden;
+}
+.imageabout:hover {
+    transition: all 0.5s;
+    transform: scale(1.2);
+}
+#btnScrollToTop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #e62739;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    outline: none;  
+    cursor: pointer;
+    border: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+  }
+  #btnScrollToTop.active {
+      visibility: visible;
+      opacity: 1;
+  }
+  .qwe{
+      position: relative;
+  }
+  .qwe::after{
+      /* color: #e62739; */
+      content: '';
+      position: absolute;
+      height: 0%;
+  width: 100%;
+  background-color: red;
+  bottom: 0;
+  transition: 0.5s;
+  opacity: 0.4;
+    }
+    .qwe:hover::after{
+        height: 100%;
+    }
